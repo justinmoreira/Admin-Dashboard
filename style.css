@@ -29,6 +29,7 @@ body{
 .sidebar{
     grid-row: 1/5;
     background-color: aqua;
+    padding: 10px;
     color: white;
     font-weight: bold;
     font-size: 24px;
@@ -40,6 +41,16 @@ body{
 .nav{
     grid-column: 2/4;
     background-color: yellow;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1rem 1fr 2fr;
+    align-content: center;
+}
+.nav-right{
+    height: fit-content;
+    display: flex;
+    gap: 30px;
+    justify-self: end;
 }
 .content{
     grid-row: 3/5;
