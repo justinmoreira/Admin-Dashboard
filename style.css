@@ -69,8 +69,9 @@ body{
     grid-template-columns: repeat(2, 1fr);
 }
 .announcements{
-    
     background-color: brown;
+    display: grid;
+    grid-template-rows: 1fr repeat(3, 2fr);
 }
 .trending{
     
