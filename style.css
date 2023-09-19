@@ -9,6 +9,22 @@ body{
 .header{
     grid-column: 2/4;
     background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:8px;
+    padding: 10px;
+}
+.header-right{
+    display: flex;
+    gap: 8px;
+}
+.search-bar{
+    flex:1;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+    max-width: 500px;
 }
 .sidebar{
     grid-row: 1/5;
