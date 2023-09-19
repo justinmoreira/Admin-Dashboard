@@ -55,6 +55,18 @@ body{
 .content{
     grid-row: 3/5;
     background-color: gray;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 20px 1fr;
+    gap:15px;
+}
+.heading1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .announcements{
     
