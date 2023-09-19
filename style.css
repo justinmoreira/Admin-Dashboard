@@ -72,8 +72,11 @@ body{
     background-color: brown;
     display: grid;
     grid-template-rows: 1fr repeat(3, 2fr);
+    padding: 10px;
 }
 .trending{
-    
     background-color: green;
+    display: grid;
+    grid-template-rows: 1fr repeat(4, 2fr);
+    padding:10px;
 }
